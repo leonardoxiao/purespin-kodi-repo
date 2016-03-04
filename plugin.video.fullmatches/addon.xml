@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
+<?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.fullmatches" version="0.0.1" name="Full Matches and Shows" provider-name="purespin">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
-  <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  <import addon="script.module.beautifulsoup4" version="4.3.2"/> 
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
@@ -14,4 +13,3 @@
   <disclaimer lang="en">A Kodi video addon created by purespin</disclaimer>
 </extension>
 </addon>
-</addons>

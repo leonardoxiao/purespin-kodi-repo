@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.fullmatches" version="0.0.1" name="Full Matches and Shows" provider-name="purespin">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Full Matches and Shows</summary>
+  <description lang="en">A Kodi video plugin to play soccer matches from www.fullmatchesandshows.com</description>
+  <disclaimer lang="en">A Kodi video addon created by purespin</disclaimer>
+</extension>
+</addon>
+
+    <addon id="purespin.kodi.repo" name="PureSpin Kodi Repository" version="0.0.1" provider-name="Leonardo Xiao">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="PureSpin Kodi Repository">
+            <info compressed="false">https://raw.githubusercontent.com/leonardoxiao/purespin-kodi-repo/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/leonardoxiao/purespin-kodi-repo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/leonardoxiao/purespin-kodi-repo/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>PureSpin's repository for Kodi (XBMC)</summary>
+            <description>My repository for my own addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
