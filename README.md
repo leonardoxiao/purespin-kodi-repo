@@ -6,7 +6,7 @@ PureSpin's Kodi (XBMC) Repository
 * Last Update:	March 16, 2016
 * Version:	0.0.1
 * Github:	<https://github.com/leonardoxiao/purespin-kodi-repo>
-* Zip Download:	<http://ramblingahoge.net/purespin-kodi-repo/repository.kuroshi/repository.kuroshi-2.0.1.zip>
+* Zip Download:	<http://ramblingahoge.net/purespin-kodi-repo/repo/purespin-kodi-repo-0.0.1.zip>
 
 Hello There!
 

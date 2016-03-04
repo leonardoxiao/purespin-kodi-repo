@@ -15,20 +15,17 @@
 </extension>
 </addon>
 
-    <addon id="purespin.kodi.repo" name="PureSpin Kodi Repository" version="0.0.1" provider-name="Leonardo Xiao">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="PureSpin Kodi Repository">
-            <info compressed="false">https://raw.githubusercontent.com/leonardoxiao/purespin-kodi-repo/repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/leonardoxiao/purespin-kodi-repo/repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/leonardoxiao/purespin-kodi-repo/repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>PureSpin's repository for Kodi (XBMC)</summary>
-            <description>My repository for my own addons</description>
-            <platform>all</platform>
-    </extension>
+<addon id="purespin.kodi.repo" name="PureSpin repository" version="0.0.1" provider-name="purespin">
+	<extension point="xbmc.addon.repository" name="PureSpin Add-on Repository">
+		<info compressed="false">http://raw.github.com/leonardoxiao/purespin-kodi-repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/leonardoxiao/purespin-kodi-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/leonardoxiao/purespin-kodi-repo/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>PureSpin Addon</summary>
+		<description>PureSpin Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
